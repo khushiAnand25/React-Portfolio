@@ -1,0 +1,17 @@
+@import "./vars.css";
+
+.App{
+    background-color: var(--color-bg);
+    width: 100%;
+    height:100vh;
+   
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;     /* ✅ no sideways scroll */
+  overflow-y: auto;       /* ✅ allow vertical scroll */
+  scroll-behavior: smooth; /* ✅ smooth scroll for nav links */
+} 

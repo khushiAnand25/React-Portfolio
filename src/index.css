@@ -1,0 +1,21 @@
+@import "./vars.css";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  font-family:"Outfit",Arial, Helvetica, sans-serif;
+
+}
+
+html, body, #root {
+  min-height: 100%;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Smooth scrolling fallback for browsers that support it */
+html {
+  scroll-behavior: smooth;
+}
+
