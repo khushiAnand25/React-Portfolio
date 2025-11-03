@@ -2,12 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/react-portfolio/fevicol.png" />
+    <link rel="icon" type="image/png" href="/React-Portfolio/fevicol.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <script>
+      (function() {
+        try {
+          var host = window.location.hostname;
+          var path = window.location.pathname || "/";
+          var isGithubUserRoot = host === "khushianand25.github.io";
+          var isAtRoot = path === "/";
+          // If someone opens the user root, bounce to the project path
+          if (isGithubUserRoot && isAtRoot) {
+            var target = "/React-Portfolio/#/";
+            if (window.location.hash && window.location.hash !== "#/") {
+              // preserve any existing hash route if present
+              target = "/React-Portfolio/" + window.location.hash;
+            }
+            window.location.replace(target);
+          }
+        } catch (e) {
+          // no-op
+        }
+      })();
+    </script>
 
     <title>Khushi Anand</title>
-    <script type="module" crossorigin src="/react-portfolio/assets/index-DL9RysGh.js"></script>
-    <link rel="stylesheet" crossorigin href="/react-portfolio/assets/index-jUqUv2rV.css">
+    <script type="module" crossorigin src="/React-Portfolio/assets/index-FlBqUk4D.js"></script>
+    <link rel="stylesheet" crossorigin href="/React-Portfolio/assets/index-DWS8cG6Z.css">
   </head>
   <body>
     <div id="root"></div>
