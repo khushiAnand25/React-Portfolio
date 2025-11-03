@@ -30,14 +30,9 @@
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: var(--color-text);
+  /* Force a layer to avoid iOS text paint glitches */
+  transform: translateZ(0);
 }
 
 /* Description paragraph */

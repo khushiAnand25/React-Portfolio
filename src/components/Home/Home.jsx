@@ -65,7 +65,7 @@ export const Home = () => {
             <FaGithub size={22} />
           </a>
           <a
-            href="/Resume.pdf"
+            href="Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className={styles.contactBtn} // use same button style as contactBtn
