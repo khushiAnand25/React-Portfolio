@@ -44,7 +44,7 @@ export const Home = () => {
           <span className={styles.caret}>|</span>
         </p>
         <p className={styles.description}>
-          Currently pursuing my Bachelor's in Computer Science from Graphic Era Deemed to be University
+          Graduated with a Bachelor's degree in Computer Science from Graphic Era Deemed to be University.
         </p>
 
         <div className={styles.actions}>
